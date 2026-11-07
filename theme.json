@@ -1,0 +1,71 @@
+{
+  "version": 2,
+  "settings": {
+    "layout": {
+      "contentSize": "800px",
+      "wideSize": "1200px"
+    },
+    "color": {
+      "palette": [
+        {
+          "slug": "forest",
+          "name": "Forest",
+          "color": "#23493d"
+        },
+        {
+          "slug": "cream",
+          "name": "Cream",
+          "color": "#faf8f3"
+        },
+        {
+          "slug": "clay",
+          "name": "Clay",
+          "color": "#a34f38"
+        },
+        {
+          "slug": "sage",
+          "name": "Sage",
+          "color": "#e7ecdf"
+        },
+        {
+          "slug": "ink",
+          "name": "Ink",
+          "color": "#24372f"
+        },
+        {
+          "slug": "white",
+          "name": "White",
+          "color": "#ffffff"
+        }
+      ]
+    },
+    "typography": {
+      "fontFamilies": [
+        {
+          "slug": "sans",
+          "name": "System sans",
+          "fontFamily": "Arial, Helvetica, sans-serif"
+        },
+        {
+          "slug": "serif",
+          "name": "Classic serif",
+          "fontFamily": "Georgia, Times New Roman, serif"
+        }
+      ]
+    }
+  },
+  "styles": {
+    "color": {
+      "text": "#24372f",
+      "background": "#faf8f3"
+    },
+    "elements": {
+      "button": {
+        "color": {
+          "background": "#23493d",
+          "text": "#ffffff"
+        }
+      }
+    }
+  }
+}

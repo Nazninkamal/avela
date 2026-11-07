@@ -1,0 +1,2 @@
+<?php if ( ! defined( 'ABSPATH' ) ) { exit; } get_header(); ?>
+<main id="content" class="avela-shell avela-page"><?php while ( have_posts() ) : the_post(); ?><article <?php post_class(); ?>><h1 class="avela-page-title"><?php the_title(); ?></h1><div class="avela-entry"><?php the_content(); wp_link_pages(); ?></div></article><?php if ( comments_open() || get_comments_number() ) { comments_template(); } endwhile; ?></main><?php get_footer(); ?>

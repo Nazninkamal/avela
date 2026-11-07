@@ -1,0 +1,936 @@
+# Copyright (C) 2026 Naznin Kamal
+# This file is distributed under the GNU General Public License v2 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: Avela 1.1.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/theme/avela\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2026-11-06T13:19:59+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.12.0\n"
+"X-Domain: avela\n"
+
+#. Theme Name of the theme
+#: style.css
+msgid "Avela"
+msgstr ""
+
+#. Theme URI of the theme
+#: style.css
+msgid "https://nazninkamal.com/shop"
+msgstr ""
+
+#. Description of the theme
+#: style.css
+msgid "A standalone retail storefront with guided setup and an editable block homepage, responsive navigation, and native WooCommerce integration. No parent theme, importer, or page builder required."
+msgstr ""
+
+#. Author of the theme
+#: style.css
+msgid "Naznin Kamal"
+msgstr ""
+
+#. Author URI of the theme
+#: style.css
+msgid "https://nazninkamal.com"
+msgstr ""
+
+#: 404.php:1
+msgid "A little off the path."
+msgstr ""
+
+#: 404.php:1
+msgid "This page could not be found. Try a search or return home."
+msgstr ""
+
+#: 404.php:1
+msgid "Back to home"
+msgstr ""
+
+#: comments.php:2
+msgid "Conversation"
+msgstr ""
+
+#: footer.php:2
+#: functions.php:43
+msgid "A considered collection for your everyday rituals."
+msgstr ""
+
+#: footer.php:3
+msgid "Explore"
+msgstr ""
+
+#: footer.php:4
+msgid "Get in touch"
+msgstr ""
+
+#: footer.php:4
+msgid "Visit our contact page"
+msgstr ""
+
+#: functions.php:11
+#: header.php:14
+msgid "Main navigation"
+msgstr ""
+
+#: functions.php:11
+msgid "Category navigation"
+msgstr ""
+
+#: functions.php:11
+msgid "Footer navigation"
+msgstr ""
+
+#: functions.php:29
+#, php-format
+msgid "%s item in cart"
+msgid_plural "%s items in cart"
+msgstr[0] ""
+msgstr[1] ""
+
+#: functions.php:34
+#: inc/content.php:31
+#: inc/welcome.php:79
+msgid "Home"
+msgstr ""
+
+#: functions.php:35
+#: inc/content.php:32
+msgid "Shop"
+msgstr ""
+
+#: functions.php:40
+msgid "Avela store details & style"
+msgstr ""
+
+#: functions.php:40
+msgid "Edit homepage content in Pages → Home. Remove any optional section in List View. These settings control the shared header and footer."
+msgstr ""
+
+#: functions.php:42
+msgid "Announcement (blank hides it)"
+msgstr ""
+
+#: functions.php:42
+#: header.php:5
+msgid "Thoughtfully chosen. Made for the everyday."
+msgstr ""
+
+#: functions.php:43
+msgid "Footer introduction"
+msgstr ""
+
+#: functions.php:44
+msgid "Contact email"
+msgstr ""
+
+#: functions.php:45
+msgid "Contact telephone"
+msgstr ""
+
+#: functions.php:46
+msgid "Business address / opening hours"
+msgstr ""
+
+#: functions.php:47
+msgid "Instagram URL (blank hides it)"
+msgstr ""
+
+#: functions.php:48
+msgid "Facebook URL (blank hides it)"
+msgstr ""
+
+#: functions.php:54
+msgid "Primary color (use a dark shade for contrast)"
+msgstr ""
+
+#: functions.php:54
+msgid "Page background (use a light shade)"
+msgstr ""
+
+#: functions.php:54
+msgid "Secondary color (use a dark shade)"
+msgstr ""
+
+#: functions.php:59
+msgid "Heading style"
+msgstr ""
+
+#: functions.php:59
+msgid "Editorial serif"
+msgstr ""
+
+#: functions.php:59
+msgid "Modern sans serif"
+msgstr ""
+
+#: functions.php:67
+msgid "Filter products"
+msgstr ""
+
+#: functions.php:68
+msgid "Categories"
+msgstr ""
+
+#: functions.php:69
+msgid "Price"
+msgstr ""
+
+#: functions.php:70
+msgid "Active filters"
+msgstr ""
+
+#: functions.php:77
+msgid "Try another product name, choose a category, or clear your filters."
+msgstr ""
+
+#: functions.php:79
+msgid "View all products and clear filters"
+msgstr ""
+
+#: header.php:4
+msgid "Skip to content"
+msgstr ""
+
+#: header.php:10
+msgid "Account"
+msgstr ""
+
+#: header.php:11
+msgid "View cart"
+msgstr ""
+
+#: header.php:12
+msgid "Menu"
+msgstr ""
+
+#: header.php:15
+msgid "Product categories"
+msgstr ""
+
+#: inc/blocks.php:6
+msgid "Search products"
+msgstr ""
+
+#: inc/blocks.php:6
+msgid "Search your everyday essentials…"
+msgstr ""
+
+#: inc/blocks.php:6
+#: searchform.php:2
+msgid "Search the site…"
+msgstr ""
+
+#: inc/blocks.php:6
+#: searchform.php:2
+msgid "Search"
+msgstr ""
+
+#: inc/blocks.php:35
+msgid "This collection is being prepared. Explore the shop for more."
+msgstr ""
+
+#: inc/blocks.php:35
+msgid "Browse the shop"
+msgstr ""
+
+#: inc/blocks.php:42
+msgid "Product categories will appear here as your collection grows."
+msgstr ""
+
+#: inc/blocks.php:52
+msgid "Our collection is coming soon."
+msgstr ""
+
+#: inc/blocks.php:52
+msgid "Please check back soon or visit our contact page."
+msgstr ""
+
+#: inc/blocks.php:53
+msgid "Set up your store with WooCommerce"
+msgstr ""
+
+#: inc/blocks.php:69
+msgid "Contact information will be available soon."
+msgstr ""
+
+#: inc/content.php:20
+msgid "THE EVERYDAY EDIT / AVELA"
+msgstr ""
+
+#: inc/content.php:20
+msgid "Small rituals. Beautiful everyday."
+msgstr ""
+
+#: inc/content.php:20
+msgid "Thoughtfully chosen essentials for your shelf, your space, and a little time for yourself."
+msgstr ""
+
+#: inc/content.php:20
+msgid "Explore the collection"
+msgstr ""
+
+#: inc/content.php:20
+msgid "Considered essentials. A fresh perspective."
+msgstr ""
+
+#: inc/content.php:21
+msgid "Avela bottles, linen and a ceramic dish in warm afternoon light"
+msgstr ""
+
+#: inc/content.php:22
+msgid "A PLACE FOR EVERYTHING"
+msgstr ""
+
+#: inc/content.php:22
+msgid "Find your everyday favourites."
+msgstr ""
+
+#: inc/content.php:23
+msgid "THE CONSIDERED COLLECTION"
+msgstr ""
+
+#: inc/content.php:23
+msgid "Meet your new essentials."
+msgstr ""
+
+#: inc/content.php:23
+msgid "View the whole collection"
+msgstr ""
+
+#: inc/content.php:24
+msgid "Natural linen and a soap bar on a warm stone surface"
+msgstr ""
+
+#: inc/content.php:24
+msgid "A MORE CONSIDERED EVERYDAY"
+msgstr ""
+
+#: inc/content.php:24
+msgid "Less rush. More ritual."
+msgstr ""
+
+#: inc/content.php:24
+msgid "A familiar texture. A quiet corner. Something lovely to reach for each day. We bring together useful, beautiful things that make the ordinary feel a little more special."
+msgstr ""
+
+#: inc/content.php:24
+#: inc/welcome.php:79
+msgid "Our story"
+msgstr ""
+
+#: inc/content.php:25
+msgid "JUST ADDED"
+msgstr ""
+
+#: inc/content.php:25
+msgid "Fresh finds for your routine."
+msgstr ""
+
+#: inc/content.php:26
+msgid "THE SEASONAL EDIT"
+msgstr ""
+
+#: inc/content.php:26
+msgid "A little something to discover."
+msgstr ""
+
+#: inc/content.php:26
+msgid "Explore selected pieces at a special price while they are part of our seasonal collection."
+msgstr ""
+
+#: inc/content.php:33
+msgid "Cart"
+msgstr ""
+
+#: inc/content.php:34
+msgid "Checkout"
+msgstr ""
+
+#: inc/content.php:35
+msgid "My Account"
+msgstr ""
+
+#: inc/content.php:36
+msgid "A more considered everyday."
+msgstr ""
+
+#: inc/content.php:36
+msgid "The Avela everyday collection"
+msgstr ""
+
+#: inc/content.php:36
+msgid "Useful things. Beautiful details."
+msgstr ""
+
+#: inc/content.php:36
+msgid "We believe the things you reach for every day deserve a little thought. Our collection brings together simple pleasures for your routine and your space."
+msgstr ""
+
+#: inc/content.php:36
+msgid "Make this story your own."
+msgstr ""
+
+#: inc/content.php:36
+msgid "This is starter content. Tell your customers who you are, how you choose your products, and what makes your store different. Replace this paragraph before launch."
+msgstr ""
+
+#: inc/content.php:37
+msgid "Let’s talk."
+msgstr ""
+
+#: inc/content.php:37
+msgid "Questions about a product or an order? We would love to hear from you. For an existing order, please include your order number."
+msgstr ""
+
+#: inc/content.php:37
+msgid "Before you get in touch"
+msgstr ""
+
+#: inc/content.php:37
+msgid "You may find your answer on our FAQ or Order Tracking page."
+msgstr ""
+
+#: inc/content.php:38
+msgid "A few helpful answers."
+msgstr ""
+
+#: inc/content.php:38
+msgid "Starter FAQ: edit these answers to match your actual business before launch."
+msgstr ""
+
+#: inc/content.php:38
+msgid "How can I track my order?"
+msgstr ""
+
+#: inc/content.php:38
+msgid "Use the Order Tracking page with your order number and billing email address. Tracking shows your store order status; carrier tracking depends on your shipping integration."
+msgstr ""
+
+#: inc/content.php:38
+msgid "Where do you deliver?"
+msgstr ""
+
+#: inc/content.php:38
+msgid "Merchant: replace this answer with the destinations and delivery estimates supported by your configured shipping zones."
+msgstr ""
+
+#: inc/content.php:38
+msgid "Can I return an item?"
+msgstr ""
+
+#: inc/content.php:38
+msgid "Merchant: add your approved return conditions and contact instructions, consistent with applicable consumer law."
+msgstr ""
+
+#: inc/content.php:39
+msgid "Track your order."
+msgstr ""
+
+#: inc/content.php:39
+msgid "Enter the order number from your confirmation email and the email address used at checkout."
+msgstr ""
+
+#: inc/content.php:40
+msgid "Shipping and Returns"
+msgstr ""
+
+#: inc/content.php:41
+msgid "Privacy Policy"
+msgstr ""
+
+#: inc/content.php:42
+msgid "Terms and Conditions"
+msgstr ""
+
+#: inc/content.php:47
+msgid "Delivery destinations and costs"
+msgstr ""
+
+#: inc/content.php:47
+msgid "Dispatch and delivery estimates"
+msgstr ""
+
+#: inc/content.php:47
+msgid "Returns, refunds and statutory rights"
+msgstr ""
+
+#: inc/content.php:47
+msgid "Return contact and address"
+msgstr ""
+
+#: inc/content.php:48
+msgid "Business identity and privacy contact"
+msgstr ""
+
+#: inc/content.php:48
+msgid "Data collected and purposes"
+msgstr ""
+
+#: inc/content.php:48
+msgid "Payments, shipping, cookies and service providers"
+msgstr ""
+
+#: inc/content.php:48
+msgid "Retention, international transfers and customer rights"
+msgstr ""
+
+#: inc/content.php:49
+msgid "Business identity and contact"
+msgstr ""
+
+#: inc/content.php:49
+msgid "Products, prices and placing an order"
+msgstr ""
+
+#: inc/content.php:49
+msgid "Payment, delivery and cancellation"
+msgstr ""
+
+#: inc/content.php:49
+msgid "Consumer rights and governing law"
+msgstr ""
+
+#: inc/content.php:51
+msgid "DRAFT — merchant review required"
+msgstr ""
+
+#: inc/content.php:51
+msgid "This checklist is not a finished policy or legal advice. Replace every section with wording suitable for your business and jurisdiction. Review with a qualified adviser before publishing. No policy promises are supplied by the theme."
+msgstr ""
+
+#: inc/content.php:52
+msgid "[Merchant: supply your reviewed wording here.]"
+msgstr ""
+
+#: inc/welcome.php:4
+msgid "Avela setup"
+msgstr ""
+
+#: inc/welcome.php:8
+msgid "Welcome to Avela. Install WooCommerce, then prepare your pages and navigation with the optional guided setup."
+msgstr ""
+
+#: inc/welcome.php:8
+#: inc/welcome.php:198
+msgid "Set up my store"
+msgstr ""
+
+#: inc/welcome.php:30
+msgid "You do not have permission to set up this store."
+msgstr ""
+
+#: inc/welcome.php:31
+msgid "Install and activate WooCommerce first. No pages or settings were changed."
+msgstr ""
+
+#: inc/welcome.php:32
+msgid "Another setup is in progress. If interrupted, try again after five minutes."
+msgstr ""
+
+#: inc/welcome.php:40
+#, php-format
+msgid "%s: its configured WooCommerce page is missing. Select a valid page in WooCommerce settings; the existing assignment was preserved."
+msgstr ""
+
+#: inc/welcome.php:45
+#, php-format
+msgid "%s: conflict with an existing non-public or unavailable page. Review Pages and WooCommerce → Settings → Advanced; nothing was overwritten."
+msgstr ""
+
+#: inc/welcome.php:48
+#, php-format
+msgid "%s: reused existing page, content and status preserved."
+msgstr ""
+
+#: inc/welcome.php:55
+#, php-format
+msgid "%1$s: created (%2$s)."
+msgstr ""
+
+#: inc/welcome.php:60
+msgid "Assigned Home as the homepage."
+msgstr ""
+
+#: inc/welcome.php:61
+msgid "Existing homepage or blog settings preserved. Change the homepage in Settings → Reading if needed."
+msgstr ""
+
+#: inc/welcome.php:64
+msgid "Legal pages remain drafts. Review, publish, and select your policies in WordPress and WooCommerce settings before launch."
+msgstr ""
+
+#: inc/welcome.php:72
+#, php-format
+msgid "%s navigation: existing assignment preserved."
+msgstr ""
+
+#: inc/welcome.php:74
+#, php-format
+msgid "%s: reused existing menu without adding items."
+msgstr ""
+
+#: inc/welcome.php:79
+msgid "Contact"
+msgstr ""
+
+#: inc/welcome.php:79
+msgid "FAQ"
+msgstr ""
+
+#: inc/welcome.php:79
+msgid "Order tracking"
+msgstr ""
+
+#: inc/welcome.php:87
+#, php-format
+msgid "%s: created and assigned."
+msgstr ""
+
+#: inc/welcome.php:111
+msgid "A bundled image was unavailable. You can upload your own in Media."
+msgstr ""
+
+#: inc/welcome.php:113
+#, php-format
+msgid "Avela sample image: %s"
+msgstr ""
+
+#: inc/welcome.php:115
+#, php-format
+msgid "Sample %s product still life"
+msgstr ""
+
+#: inc/welcome.php:119
+msgid "Daily care"
+msgstr ""
+
+#: inc/welcome.php:119
+msgid "Body & bath"
+msgstr ""
+
+#: inc/welcome.php:119
+msgid "Home & living"
+msgstr ""
+
+#: inc/welcome.php:119
+msgid "Little extras"
+msgstr ""
+
+#: inc/welcome.php:129
+msgid "Everyday gentle cleanser"
+msgstr ""
+
+#: inc/welcome.php:130
+msgid "The daily botanical serum"
+msgstr ""
+
+#: inc/welcome.php:131
+msgid "Comfort face cream"
+msgstr ""
+
+#: inc/welcome.php:132
+msgid "Soft linen bath set"
+msgstr ""
+
+#: inc/welcome.php:133
+msgid "Quiet moments candle"
+msgstr ""
+
+#: inc/welcome.php:134
+msgid "Everyday ceramic dish"
+msgstr ""
+
+#: inc/welcome.php:139
+#, php-format
+msgid "%s: existing or trashed sample preserved."
+msgstr ""
+
+#: inc/welcome.php:140
+msgid "A sample SKU already exists; skipped to avoid a conflict."
+msgstr ""
+
+#: inc/welcome.php:143
+msgid "Sample product for demonstration. Replace this description, photography, materials, dimensions, care details and price with verified information about your own product before selling."
+msgstr ""
+
+#: inc/welcome.php:144
+msgid "A considered addition to your everyday routine. Sample product — replace with your own product details before launch."
+msgstr ""
+
+#: inc/welcome.php:150
+#: inc/welcome.php:155
+msgid "Size"
+msgstr ""
+
+#: inc/welcome.php:150
+#: inc/welcome.php:154
+msgid "Hand towel"
+msgstr ""
+
+#: inc/welcome.php:150
+#: inc/welcome.php:154
+msgid "Bath towel"
+msgstr ""
+
+#: inc/welcome.php:160
+#, php-format
+msgid "%s: created sample product. Prices use your existing store currency."
+msgstr ""
+
+#: inc/welcome.php:165
+msgid "WooCommerce and administrator access are required."
+msgstr ""
+
+#: inc/welcome.php:169
+#, php-format
+msgid "%s: edited sample preserved. Remove manually if desired."
+msgstr ""
+
+#: inc/welcome.php:170
+#, php-format
+msgid "%s: moved sample product to Trash."
+msgstr ""
+
+#: inc/welcome.php:172
+msgid "Pages, categories, menus and images are retained because they may be in use. Sample images are labelled “Avela sample image” in Media; delete them manually only after replacing all uses. Restore products from Trash if needed."
+msgstr ""
+
+#: inc/welcome.php:176
+msgid "Administrator access is required."
+msgstr ""
+
+#: inc/welcome.php:189
+msgid "Welcome to Avela"
+msgstr ""
+
+#: inc/welcome.php:190
+msgid "Your store, thoughtfully put together. No parent theme, importer or paid builder required."
+msgstr ""
+
+#: inc/welcome.php:191
+msgid "Setup report"
+msgstr ""
+
+#: inc/welcome.php:192
+msgid "1. Install WooCommerce"
+msgstr ""
+
+#: inc/welcome.php:193
+msgid "WooCommerce provides products, accounts and checkout. Avela activates safely without it. No plugin is downloaded or activated by this theme."
+msgstr ""
+
+#: inc/welcome.php:194
+msgid "Install WooCommerce through WordPress"
+msgstr ""
+
+#: inc/welcome.php:194
+msgid "WooCommerce is active."
+msgstr ""
+
+#: inc/welcome.php:195
+msgid "2. Prepare your pages and navigation"
+msgstr ""
+
+#: inc/welcome.php:196
+msgid "Setup creates only missing pages and unassigned menus. Existing content, menu assignments, products, store settings and static homepages are preserved. Existing pages are reused without changing their content. Review reused pages to confirm they have the right WooCommerce functionality."
+msgstr ""
+
+#: inc/welcome.php:197
+msgid "Review existing pages and conflicts"
+msgstr ""
+
+#: inc/welcome.php:197
+msgid "Page"
+msgstr ""
+
+#: inc/welcome.php:197
+msgid "Planned action"
+msgstr ""
+
+#: inc/welcome.php:197
+#, php-format
+msgid "Preserve existing page #%1$d (%2$s); review its content."
+msgstr ""
+
+#: inc/welcome.php:197
+#, php-format
+msgid "Create missing page (%s)."
+msgstr ""
+
+#: inc/welcome.php:198
+msgid "Add optional sample content: six sample products, four categories and seven original images. Includes a variable product. No reviews, orders, customer accounts or store configuration are imported."
+msgstr ""
+
+#: inc/welcome.php:198
+msgid "Sample products are published and purchasable for testing. Use a private staging site, then remove or replace them before launch. Sample prices use your existing currency."
+msgstr ""
+
+#: inc/welcome.php:199
+msgid "3. Make it yours"
+msgstr ""
+
+#: inc/welcome.php:200
+msgid "Edit pages and homepage"
+msgstr ""
+
+#: inc/welcome.php:200
+msgid "Use the block editor. Open List View to select, rename, reorder or remove a section. Select an image to replace it. Select a product collection to choose featured, newest or sale products."
+msgstr ""
+
+#: inc/welcome.php:201
+msgid "Edit logo, store name, colors, heading style, announcement and shared contact details"
+msgstr ""
+
+#: inc/welcome.php:202
+msgid "Edit navigation menus"
+msgstr ""
+
+#: inc/welcome.php:202
+msgid "Choose a different homepage"
+msgstr ""
+
+#: inc/welcome.php:203
+msgid "Manage products, images and featured selections"
+msgstr ""
+
+#: inc/welcome.php:204
+msgid "4. Configure your business before launch"
+msgstr ""
+
+#: inc/welcome.php:204
+msgid "Review all starter text. Publish your reviewed Shipping and Returns, Privacy Policy and Terms and Conditions drafts, then add them to navigation. Choose the privacy page in Settings → Privacy and the terms page in WooCommerce → Settings → Advanced. Configure your own country, currency, taxes, shipping, accounts and payment provider in WooCommerce. Test checkout and your payment provider; no gateway is configured by Avela."
+msgstr ""
+
+#: inc/welcome.php:204
+msgid "WooCommerce settings"
+msgstr ""
+
+#: inc/welcome.php:205
+msgid "Remove unedited sample products"
+msgstr ""
+
+#: inc/welcome.php:205
+msgid "Moves only unedited products created by this setup to Trash. Edited samples and all other products are preserved. Images, categories, pages and menus remain for safety; see the customer guide for manual cleanup."
+msgstr ""
+
+#: inc/welcome.php:205
+msgid "Move unedited sample products to Trash"
+msgstr ""
+
+#: index.php:2
+msgid "The journal"
+msgstr ""
+
+#: index.php:2
+#, php-format
+msgid "Search results for: %s"
+msgstr ""
+
+#: index.php:2
+msgid "Notes & inspiration"
+msgstr ""
+
+#: index.php:3
+msgid "Nothing found. Try another search."
+msgstr ""
+
+#: assets/blocks.js:6
+msgid "Avela product collection"
+msgstr ""
+
+#: assets/blocks.js:7
+msgid "Products from WooCommerce. Edit products in Products; remove this block to hide it."
+msgstr ""
+
+#: assets/blocks.js:12
+msgid "Collection settings"
+msgstr ""
+
+#: assets/blocks.js:13
+msgid "Collection"
+msgstr ""
+
+#: assets/blocks.js:13
+msgid "Featured products"
+msgstr ""
+
+#: assets/blocks.js:13
+msgid "New arrivals"
+msgstr ""
+
+#: assets/blocks.js:13
+msgid "Sale products"
+msgstr ""
+
+#: assets/blocks.js:14
+msgid "Number of products"
+msgstr ""
+
+#: assets/blocks.js:19
+msgid "Avela shop categories"
+msgstr ""
+
+#: assets/blocks.js:20
+msgid "Avela contact details"
+msgstr ""
+
+#: assets/blocks.js:21
+msgid "Avela store page"
+msgstr ""
+
+#: assets/blocks.js:26
+msgid "Page function"
+msgstr ""
+
+#: assets/blocks.js:26
+msgid "WooCommerce page"
+msgstr ""
+
+#: assets/blocks.js:27
+msgid "Edit shared contact details in Appearance → Customize → Avela store details & style."
+msgstr ""
+
+#: theme.json
+msgctxt "Color name"
+msgid "Forest"
+msgstr ""
+
+#: theme.json
+msgctxt "Color name"
+msgid "Cream"
+msgstr ""
+
+#: theme.json
+msgctxt "Color name"
+msgid "Clay"
+msgstr ""
+
+#: theme.json
+msgctxt "Color name"
+msgid "Sage"
+msgstr ""
+
+#: theme.json
+msgctxt "Color name"
+msgid "Ink"
+msgstr ""
+
+#: theme.json
+msgctxt "Color name"
+msgid "White"
+msgstr ""
+
+#: theme.json
+msgctxt "Font family name"
+msgid "System sans"
+msgstr ""
+
+#: theme.json
+msgctxt "Font family name"
+msgid "Classic serif"
+msgstr ""

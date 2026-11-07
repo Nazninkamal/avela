@@ -1,0 +1,2 @@
+/* Logical properties in style.css handle most RTL layout. */
+body{direction:rtl;unicode-bidi:embed}.avela-menu .sub-menu{right:0;left:auto}.woocommerce ul.products li.product .onsale{right:auto;left:12px}.avela-product-search input{text-align:right}
