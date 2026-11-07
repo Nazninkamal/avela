@@ -6,7 +6,7 @@ A standalone WordPress retail theme with an editable block homepage, guided setu
 - [Customer setup and editing guide](docs/CUSTOMER-GUIDE.md)
 - [Dependencies and licensing](docs/LICENSING.md)
 - [Factual verification report](docs/TEST-REPORT.md)
-- [Desktop preview](previews/desktop.png) · [Mobile preview](previews/mobile.png)
+- [Desktop preview](previews/desktop.jpg) · [Mobile preview](previews/mobile.jpg)
 
 Upload **dist/avela-1.1.0.zip** through WordPress → Appearance → Themes → Add Theme → Upload Theme. Activate, install WooCommerce through the standard WordPress plugin flow, then open Appearance → Avela setup. Use the block editor for homepage/page content, Customize for shared store details and style, and WooCommerce for the catalog.
 
