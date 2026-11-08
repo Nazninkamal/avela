@@ -2,14 +2,14 @@
 # This file is distributed under the GNU General Public License v2 or later.
 msgid ""
 msgstr ""
-"Project-Id-Version: Avela 1.1.0\n"
+"Project-Id-Version: Avela 1.2.0\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/theme/avela\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2026-11-06T13:19:59+00:00\n"
+"POT-Creation-Date: 2026-11-08T06:18:41+00:00\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "X-Generator: WP-CLI 2.12.0\n"
 "X-Domain: avela\n"
@@ -55,25 +55,27 @@ msgstr ""
 msgid "Conversation"
 msgstr ""
 
-#: footer.php:2
+#: footer.php:3
 #: functions.php:43
 msgid "A considered collection for your everyday rituals."
 msgstr ""
 
-#: footer.php:3
+#: footer.php:4
 msgid "Explore"
 msgstr ""
 
-#: footer.php:4
+#: footer.php:5
+#: inc/elementor-layouts.php:103
 msgid "Get in touch"
 msgstr ""
 
-#: footer.php:4
+#: footer.php:5
 msgid "Visit our contact page"
 msgstr ""
 
 #: functions.php:11
-#: header.php:14
+#: header.php:15
+#: inc/elementor-widgets.php:30
 msgid "Main navigation"
 msgstr ""
 
@@ -94,6 +96,8 @@ msgstr[1] ""
 
 #: functions.php:34
 #: inc/content.php:31
+#: inc/elementor.php:43
+#: inc/elementor.php:88
 #: inc/welcome.php:79
 msgid "Home"
 msgstr ""
@@ -108,20 +112,20 @@ msgid "Avela store details & style"
 msgstr ""
 
 #: functions.php:40
-msgid "Edit homepage content in Pages → Home. Remove any optional section in List View. These settings control the shared header and footer."
+msgid "Edit Elementor layouts through Appearance → Avela setup. Shared logo and contact data update the store widgets. Elementor widgets have their own Style controls; the settings here also provide original theme and store defaults."
 msgstr ""
 
 #: functions.php:42
-msgid "Announcement (blank hides it)"
+msgid "Original header announcement (Elementor header text is edited in Elementor)"
 msgstr ""
 
 #: functions.php:42
-#: header.php:5
+#: header.php:6
 msgid "Thoughtfully chosen. Made for the everyday."
 msgstr ""
 
 #: functions.php:43
-msgid "Footer introduction"
+msgid "Original footer introduction (Elementor footer text is edited in Elementor)"
 msgstr ""
 
 #: functions.php:44
@@ -173,6 +177,7 @@ msgid "Filter products"
 msgstr ""
 
 #: functions.php:68
+#: inc/elementor-widgets.php:30
 msgid "Categories"
 msgstr ""
 
@@ -196,19 +201,26 @@ msgstr ""
 msgid "Skip to content"
 msgstr ""
 
-#: header.php:10
-msgid "Account"
+#: header.php:11
+#: inc/elementor-widgets.php:64
+msgid "My account"
 msgstr ""
 
 #: header.php:11
-msgid "View cart"
+#: inc/elementor-widgets.php:64
+msgid "Account"
 msgstr ""
 
 #: header.php:12
+#: inc/elementor-widgets.php:64
+msgid "View cart"
+msgstr ""
+
+#: header.php:13
 msgid "Menu"
 msgstr ""
 
-#: header.php:15
+#: header.php:16
 msgid "Product categories"
 msgstr ""
 
@@ -259,6 +271,7 @@ msgid "Contact information will be available soon."
 msgstr ""
 
 #: inc/content.php:20
+#: inc/elementor-layouts.php:121
 msgid "THE EVERYDAY EDIT / AVELA"
 msgstr ""
 
@@ -271,6 +284,7 @@ msgid "Thoughtfully chosen essentials for your shelf, your space, and a little t
 msgstr ""
 
 #: inc/content.php:20
+#: inc/elementor-layouts.php:88
 msgid "Explore the collection"
 msgstr ""
 
@@ -291,10 +305,12 @@ msgid "Find your everyday favourites."
 msgstr ""
 
 #: inc/content.php:23
+#: inc/elementor-layouts.php:125
 msgid "THE CONSIDERED COLLECTION"
 msgstr ""
 
 #: inc/content.php:23
+#: inc/elementor-layouts.php:125
 msgid "Meet your new essentials."
 msgstr ""
 
@@ -319,6 +335,8 @@ msgid "A familiar texture. A quiet corner. Something lovely to reach for each da
 msgstr ""
 
 #: inc/content.php:24
+#: inc/elementor.php:43
+#: inc/elementor.php:88
 #: inc/welcome.php:79
 msgid "Our story"
 msgstr ""
@@ -332,6 +350,7 @@ msgid "Fresh finds for your routine."
 msgstr ""
 
 #: inc/content.php:26
+#: inc/elementor-layouts.php:132
 msgid "THE SEASONAL EDIT"
 msgstr ""
 
@@ -396,6 +415,7 @@ msgid "You may find your answer on our FAQ or Order Tracking page."
 msgstr ""
 
 #: inc/content.php:38
+#: inc/elementor-layouts.php:116
 msgid "A few helpful answers."
 msgstr ""
 
@@ -412,6 +432,7 @@ msgid "Use the Order Tracking page with your order number and billing email addr
 msgstr ""
 
 #: inc/content.php:38
+#: inc/elementor-layouts.php:113
 msgid "Where do you deliver?"
 msgstr ""
 
@@ -420,6 +441,7 @@ msgid "Merchant: replace this answer with the destinations and delivery estimate
 msgstr ""
 
 #: inc/content.php:38
+#: inc/elementor-layouts.php:112
 msgid "Can I return an item?"
 msgstr ""
 
@@ -507,6 +529,591 @@ msgstr ""
 msgid "[Merchant: supply your reviewed wording here.]"
 msgstr ""
 
+#: inc/elementor-layouts.php:50
+#, php-format
+msgid "Avela %s collection"
+msgstr ""
+
+#: inc/elementor-layouts.php:50
+#, php-format
+msgid "%s image — click to replace"
+msgstr ""
+
+#: inc/elementor-layouts.php:66
+msgid "The everyday edit. A little more considered."
+msgstr ""
+
+#: inc/elementor-layouts.php:78
+msgid "Thoughtfully chosen essentials for your shelf, your space, and the moments in between."
+msgstr ""
+
+#: inc/elementor-layouts.php:79
+msgid "Explore the store"
+msgstr ""
+
+#: inc/elementor-layouts.php:80
+msgid "We’re here to help"
+msgstr ""
+
+#: inc/elementor-layouts.php:80
+msgid "Contact us"
+msgstr ""
+
+#: inc/elementor-layouts.php:82
+#: inc/elementor-widgets.php:27
+msgid "All rights reserved."
+msgstr ""
+
+#: inc/elementor-layouts.php:88
+msgid "THE AVELA POINT OF VIEW"
+msgstr ""
+
+#: inc/elementor-layouts.php:88
+msgid "Good things.<br>A more considered everyday."
+msgstr ""
+
+#: inc/elementor-layouts.php:88
+msgid "We make room for simple pleasures: a familiar texture, something useful, a little time for yourself. This is a place to find pieces you will love reaching for."
+msgstr ""
+
+#: inc/elementor-layouts.php:91
+msgid "THE THINGS THAT MATTER"
+msgstr ""
+
+#: inc/elementor-layouts.php:91
+msgid "A little thought goes a long way."
+msgstr ""
+
+#: inc/elementor-layouts.php:92
+msgid "Everyday usefulness"
+msgstr ""
+
+#: inc/elementor-layouts.php:92
+msgid "Pieces that fit naturally into your routine, with details you will appreciate day after day."
+msgstr ""
+
+#: inc/elementor-layouts.php:93
+msgid "Beautiful simplicity"
+msgstr ""
+
+#: inc/elementor-layouts.php:93
+msgid "A considered collection of textures, colors and forms that feel good in your space."
+msgstr ""
+
+#: inc/elementor-layouts.php:94
+msgid "Your own rhythm"
+msgstr ""
+
+#: inc/elementor-layouts.php:94
+msgid "There is no single way to make a day your own. Find the things that work for you."
+msgstr ""
+
+#: inc/elementor-layouts.php:96
+msgid "A LITTLE MORE CONSIDERED"
+msgstr ""
+
+#: inc/elementor-layouts.php:96
+msgid "A little space for what you love."
+msgstr ""
+
+#: inc/elementor-layouts.php:96
+msgid "Our collection brings together everyday pieces with simple forms and inviting textures. Discover something for your routine, your space, or someone you care about."
+msgstr ""
+
+#: inc/elementor-layouts.php:96
+#: inc/elementor-layouts.php:133
+msgid "Let’s talk"
+msgstr ""
+
+#: inc/elementor-layouts.php:101
+msgid "A LITTLE HELP, WHEN YOU NEED IT"
+msgstr ""
+
+#: inc/elementor-layouts.php:101
+msgid "Let’s make it simple."
+msgstr ""
+
+#: inc/elementor-layouts.php:101
+msgid "A question about a product? A little help with an order? Get in touch and include your order number if you have one."
+msgstr ""
+
+#: inc/elementor-layouts.php:104
+msgid "GOOD TO KNOW"
+msgstr ""
+
+#: inc/elementor-layouts.php:104
+msgid "Your answer might be right here."
+msgstr ""
+
+#: inc/elementor-layouts.php:104
+msgid "Check an order’s status or find answers to common shopping questions."
+msgstr ""
+
+#: inc/elementor-layouts.php:104
+msgid "Read the FAQ"
+msgstr ""
+
+#: inc/elementor-layouts.php:104
+msgid "Track an order"
+msgstr ""
+
+#: inc/elementor-layouts.php:110
+msgid "Where is my order?"
+msgstr ""
+
+#: inc/elementor-layouts.php:110
+msgid "Use Order Tracking with your order number and billing email address. You can also see orders in your customer account. Carrier tracking depends on the shipping service used by the store."
+msgstr ""
+
+#: inc/elementor-layouts.php:111
+msgid "How do I choose an option?"
+msgstr ""
+
+#: inc/elementor-layouts.php:111
+msgid "Open the product page and choose the available size, color or other option before adding the item to your cart. The selected option and current price will appear before checkout."
+msgstr ""
+
+#: inc/elementor-layouts.php:112
+msgid "Please contact our team with your order number for help. Refer to the store’s published shipping and returns policy for the conditions that apply to your order."
+msgstr ""
+
+#: inc/elementor-layouts.php:113
+msgid "Available shipping methods and costs are shown at checkout for your address. Contact us if you need help choosing an available delivery method."
+msgstr ""
+
+#: inc/elementor-layouts.php:114
+msgid "How can I get in touch?"
+msgstr ""
+
+#: inc/elementor-layouts.php:114
+msgid "Visit the Contact page for the store’s email, telephone and business hours. Include your order number when asking about an existing order."
+msgstr ""
+
+#: inc/elementor-layouts.php:116
+msgid "HERE TO HELP"
+msgstr ""
+
+#: inc/elementor-layouts.php:116
+msgid "The little details that make shopping simpler."
+msgstr ""
+
+#: inc/elementor-layouts.php:116
+msgid "Still have a question?"
+msgstr ""
+
+#: inc/elementor-layouts.php:116
+msgid "Contact our team"
+msgstr ""
+
+#: inc/elementor-layouts.php:121
+msgid "Good things.<br>For your everyday."
+msgstr ""
+
+#: inc/elementor-layouts.php:121
+msgid "Beauty, home, and the little things in between. Discover a considered collection to make your daily rituals feel more like you."
+msgstr ""
+
+#: inc/elementor-layouts.php:121
+msgid "Shop the collection"
+msgstr ""
+
+#: inc/elementor-layouts.php:121
+msgid "Discover our story"
+msgstr ""
+
+#: inc/elementor-layouts.php:122
+msgid "A LITTLE MORE CONSIDERED."
+msgstr ""
+
+#: inc/elementor-layouts.php:124
+msgid "FIND YOUR EVERYDAY"
+msgstr ""
+
+#: inc/elementor-layouts.php:124
+msgid "A place for all your favourites."
+msgstr ""
+
+#: inc/elementor-layouts.php:124
+msgid "Shop all"
+msgstr ""
+
+#: inc/elementor-layouts.php:125
+msgid "Easy to reach for. Lovely to live with."
+msgstr ""
+
+#: inc/elementor-layouts.php:127
+msgid "A MOMENT FOR YOURSELF"
+msgstr ""
+
+#: inc/elementor-layouts.php:127
+msgid "Make room for a little ritual."
+msgstr ""
+
+#: inc/elementor-layouts.php:127
+msgid "Explore daily care"
+msgstr ""
+
+#: inc/elementor-layouts.php:128
+msgid "SETTLE INTO YOUR SPACE"
+msgstr ""
+
+#: inc/elementor-layouts.php:128
+msgid "Little things. Lovely spaces."
+msgstr ""
+
+#: inc/elementor-layouts.php:128
+msgid "Discover the collection"
+msgstr ""
+
+#: inc/elementor-layouts.php:130
+msgid "JUST LANDED"
+msgstr ""
+
+#: inc/elementor-layouts.php:130
+msgid "Something fresh for your routine."
+msgstr ""
+
+#: inc/elementor-layouts.php:131
+msgid "LESS RUSH. MORE RITUAL."
+msgstr ""
+
+#: inc/elementor-layouts.php:131
+msgid "The everyday,<br>beautifully considered."
+msgstr ""
+
+#: inc/elementor-layouts.php:131
+msgid "A familiar texture. A favourite corner. Something beautiful to reach for. We bring together thoughtful pieces for your routine and your space, so the ordinary can feel a little more special."
+msgstr ""
+
+#: inc/elementor-layouts.php:131
+msgid "Get to know us"
+msgstr ""
+
+#: inc/elementor-layouts.php:132
+msgid "A little find.<br>A lovely price."
+msgstr ""
+
+#: inc/elementor-layouts.php:132
+msgid "Discover selected pieces from the collection at their current sale price. Keep an eye on this space for the next edit."
+msgstr ""
+
+#: inc/elementor-layouts.php:132
+#: inc/elementor-widgets.php:69
+msgid "Browse the store"
+msgstr ""
+
+#: inc/elementor-layouts.php:133
+msgid "Find your favourites"
+msgstr ""
+
+#: inc/elementor-layouts.php:133
+msgid "Explore the full collection"
+msgstr ""
+
+#: inc/elementor-layouts.php:133
+msgid "A little help?"
+msgstr ""
+
+#: inc/elementor-layouts.php:133
+msgid "Find an answer in the FAQ"
+msgstr ""
+
+#: inc/elementor-layouts.php:133
+msgid "Get in touch with our team"
+msgstr ""
+
+#: inc/elementor-widgets.php:12
+msgid "Avela Products"
+msgstr ""
+
+#: inc/elementor-widgets.php:12
+msgid "Avela Categories"
+msgstr ""
+
+#: inc/elementor-widgets.php:12
+msgid "Avela Store Identity"
+msgstr ""
+
+#: inc/elementor-widgets.php:12
+msgid "Avela Product Search"
+msgstr ""
+
+#: inc/elementor-widgets.php:12
+msgid "Avela Account & Cart"
+msgstr ""
+
+#: inc/elementor-widgets.php:12
+msgid "Avela Store Navigation"
+msgstr ""
+
+#: inc/elementor-widgets.php:12
+msgid "Avela Footer Links"
+msgstr ""
+
+#: inc/elementor-widgets.php:12
+msgid "Avela Contact Details"
+msgstr ""
+
+#: inc/elementor-widgets.php:12
+msgid "Avela Copyright & Policies"
+msgstr ""
+
+#: inc/elementor-widgets.php:13
+msgid "Avela Store"
+msgstr ""
+
+#: inc/elementor-widgets.php:19
+msgid "Store content"
+msgstr ""
+
+#: inc/elementor-widgets.php:21
+#: assets/blocks.js:13
+msgid "Collection"
+msgstr ""
+
+#: inc/elementor-widgets.php:21
+msgid "Featured"
+msgstr ""
+
+#: inc/elementor-widgets.php:21
+#: assets/blocks.js:13
+msgid "New arrivals"
+msgstr ""
+
+#: inc/elementor-widgets.php:21
+msgid "On sale"
+msgstr ""
+
+#: inc/elementor-widgets.php:22
+#: assets/blocks.js:14
+msgid "Number of products"
+msgstr ""
+
+#: inc/elementor-widgets.php:23
+msgid "Columns"
+msgstr ""
+
+#: inc/elementor-widgets.php:24
+msgid "Image proportions"
+msgstr ""
+
+#: inc/elementor-widgets.php:24
+msgid "Portrait"
+msgstr ""
+
+#: inc/elementor-widgets.php:24
+msgid "Square"
+msgstr ""
+
+#: inc/elementor-widgets.php:24
+msgid "Landscape"
+msgstr ""
+
+#: inc/elementor-widgets.php:25
+msgid "Edit product information, images, prices and stock in Products. Mark featured products with the star in the Products list. No Elementor Pro is needed."
+msgstr ""
+
+#: inc/elementor-widgets.php:27
+msgid "Copyright suffix"
+msgstr ""
+
+#: inc/elementor-widgets.php:28
+msgid "Year and store name update automatically. Only published policy pages are linked; review drafts before publishing."
+msgstr ""
+
+#: inc/elementor-widgets.php:30
+msgid "WordPress menu location"
+msgstr ""
+
+#: inc/elementor-widgets.php:30
+#: inc/elementor.php:124
+msgid "Footer"
+msgstr ""
+
+#: inc/elementor-widgets.php:31
+msgid "Manage links in Appearance → Menus. Native WordPress menus keep navigation consistent across the store."
+msgstr ""
+
+#: inc/elementor-widgets.php:33
+msgid "Edit shared email, telephone and address in Appearance → Customize → Avela store details & style. Changes appear in both the footer and Contact page."
+msgstr ""
+
+#: inc/elementor-widgets.php:33
+msgid "Change your logo and store name in Appearance → Customize → Site Identity. Layout, spacing and colors are editable here in Elementor."
+msgstr ""
+
+#: inc/elementor-widgets.php:33
+msgid "This widget uses the current store data and native WooCommerce links."
+msgstr ""
+
+#: inc/elementor-widgets.php:37
+msgid "Appearance"
+msgstr ""
+
+#: inc/elementor-widgets.php:38
+msgid "Text color"
+msgstr ""
+
+#: inc/elementor-widgets.php:40
+msgid "Product title"
+msgstr ""
+
+#: inc/elementor-widgets.php:41
+msgid "Button background"
+msgstr ""
+
+#: inc/elementor-widgets.php:45
+msgid "Typography"
+msgstr ""
+
+#: inc/elementor-widgets.php:69
+msgid "Store navigation"
+msgstr ""
+
+#: inc/elementor.php:10
+msgid "Avela Shop"
+msgstr ""
+
+#: inc/elementor.php:38
+#: inc/elementor.php:98
+#: inc/welcome.php:176
+msgid "Administrator access is required."
+msgstr ""
+
+#: inc/elementor.php:39
+msgid "Install and activate Elementor Free first. No existing pages were changed."
+msgstr ""
+
+#: inc/elementor.php:40
+msgid "Elementor setup is already in progress. Try again in five minutes if it was interrupted."
+msgstr ""
+
+#: inc/elementor.php:43
+#: inc/elementor.php:88
+#: inc/elementor.php:124
+#: inc/welcome.php:79
+msgid "Contact"
+msgstr ""
+
+#: inc/elementor.php:43
+#: inc/elementor.php:88
+#: inc/elementor.php:124
+#: inc/welcome.php:79
+msgid "FAQ"
+msgstr ""
+
+#: inc/elementor.php:43
+msgid "Avela Header"
+msgstr ""
+
+#: inc/elementor.php:43
+msgid "Avela Footer"
+msgstr ""
+
+#: inc/elementor.php:46
+#, php-format
+msgid "%s: existing template is private or in Trash; restore it manually. No duplicate created."
+msgstr ""
+
+#: inc/elementor.php:47
+#, php-format
+msgid "%s: reused; all edits preserved."
+msgstr ""
+
+#: inc/elementor.php:54
+#, php-format
+msgid "%s: created as a separate editable Elementor layout."
+msgstr ""
+
+#: inc/elementor.php:66
+msgid "Elementor Home assigned as requested. The previous homepage remains in Pages."
+msgstr ""
+
+#: inc/elementor.php:73
+msgid "Elementor header and footer enabled. Existing region assignments were preserved; the original theme regions remain available when these are disabled."
+msgstr ""
+
+#: inc/elementor.php:93
+#, php-format
+msgid "%s assigned as requested. Other menus were not changed."
+msgstr ""
+
+#: inc/elementor.php:102
+msgid "Original theme header and footer restored. Your Elementor templates and edits were retained."
+msgstr ""
+
+#: inc/elementor.php:112
+msgid "Build the ready-made Elementor website"
+msgstr ""
+
+#: inc/elementor.php:113
+msgid "Recommended for visual editing: a complete boutique storefront, About, Contact and FAQ pages, plus editable header and footer layouts. Works with Elementor Free. No Pro license, importer plugin or manual JSON import is required."
+msgstr ""
+
+#: inc/elementor.php:114
+msgid "Install Elementor Free through WordPress"
+msgstr ""
+
+#: inc/elementor.php:117
+msgid "Use Elementor Home as my homepage. Keep the previous homepage in Pages."
+msgstr ""
+
+#: inc/elementor.php:118
+msgid "Assign new menus linking to the Elementor pages. Keep my old menus available."
+msgstr ""
+
+#: inc/elementor.php:119
+msgid "Use the editable Elementor header and footer across the website."
+msgstr ""
+
+#: inc/elementor.php:120
+msgid "Existing pages and edits are never overwritten. Run this again to reuse your templates and apply selected switches. Leave the switches off to create and preview the new layouts first. Product data stays in WooCommerce; shared logo/contact information stays in Customize."
+msgstr ""
+
+#: inc/elementor.php:121
+msgid "Create my Elementor website"
+msgstr ""
+
+#: inc/elementor.php:123
+msgid "Ready-made layout"
+msgstr ""
+
+#: inc/elementor.php:123
+msgid "Edit and preview"
+msgstr ""
+
+#: inc/elementor.php:124
+msgid "Homepage"
+msgstr ""
+
+#: inc/elementor.php:124
+msgid "About"
+msgstr ""
+
+#: inc/elementor.php:124
+msgid "Header"
+msgstr ""
+
+#: inc/elementor.php:125
+msgid "Edit with Elementor"
+msgstr ""
+
+#: inc/elementor.php:125
+msgid "Preview"
+msgstr ""
+
+#: inc/elementor.php:125
+msgid "Activate Elementor and create the website above, or restore the existing layout from Trash."
+msgstr ""
+
+#: inc/elementor.php:127
+msgid "In Elementor, select any heading, text, image or button to edit it. Use Navigator/Structure to move, duplicate or delete named sections. Select Avela Products to choose featured, new or sale items, columns and image proportions. Header and footer layouts are available from this screen even with Elementor Free."
+msgstr ""
+
+#: inc/elementor.php:129
+msgid "Restore original theme header and footer"
+msgstr ""
+
 #: inc/welcome.php:4
 msgid "Avela setup"
 msgstr ""
@@ -572,14 +1179,6 @@ msgstr ""
 #: inc/welcome.php:74
 #, php-format
 msgid "%s: reused existing menu without adding items."
-msgstr ""
-
-#: inc/welcome.php:79
-msgid "Contact"
-msgstr ""
-
-#: inc/welcome.php:79
-msgid "FAQ"
 msgstr ""
 
 #: inc/welcome.php:79
@@ -700,16 +1299,12 @@ msgstr ""
 msgid "Pages, categories, menus and images are retained because they may be in use. Sample images are labelled “Avela sample image” in Media; delete them manually only after replacing all uses. Restore products from Trash if needed."
 msgstr ""
 
-#: inc/welcome.php:176
-msgid "Administrator access is required."
-msgstr ""
-
 #: inc/welcome.php:189
 msgid "Welcome to Avela"
 msgstr ""
 
 #: inc/welcome.php:190
-msgid "Your store, thoughtfully put together. No parent theme, importer or paid builder required."
+msgid "A ready-made Elementor Free storefront, with a block-editor fallback. No parent theme, importer or paid builder required."
 msgstr ""
 
 #: inc/welcome.php:191
@@ -770,55 +1365,55 @@ msgstr ""
 msgid "Sample products are published and purchasable for testing. Use a private staging site, then remove or replace them before launch. Sample prices use your existing currency."
 msgstr ""
 
-#: inc/welcome.php:199
+#: inc/welcome.php:200
 msgid "3. Make it yours"
 msgstr ""
 
-#: inc/welcome.php:200
+#: inc/welcome.php:201
 msgid "Edit pages and homepage"
 msgstr ""
 
-#: inc/welcome.php:200
-msgid "Use the block editor. Open List View to select, rename, reorder or remove a section. Select an image to replace it. Select a product collection to choose featured, newest or sale products."
-msgstr ""
-
 #: inc/welcome.php:201
-msgid "Edit logo, store name, colors, heading style, announcement and shared contact details"
+msgid "For Elementor layouts, use the Edit with Elementor links above. For original block pages, use the WordPress editor and List View. Edit images, buttons and product collection settings in the editor used by that page."
 msgstr ""
 
 #: inc/welcome.php:202
-msgid "Edit navigation menus"
-msgstr ""
-
-#: inc/welcome.php:202
-msgid "Choose a different homepage"
+msgid "Edit shared logo, store name and contact details; style the original theme header/footer"
 msgstr ""
 
 #: inc/welcome.php:203
+msgid "Edit navigation menus"
+msgstr ""
+
+#: inc/welcome.php:203
+msgid "Choose a different homepage"
+msgstr ""
+
+#: inc/welcome.php:204
 msgid "Manage products, images and featured selections"
 msgstr ""
 
-#: inc/welcome.php:204
+#: inc/welcome.php:205
 msgid "4. Configure your business before launch"
 msgstr ""
 
-#: inc/welcome.php:204
+#: inc/welcome.php:205
 msgid "Review all starter text. Publish your reviewed Shipping and Returns, Privacy Policy and Terms and Conditions drafts, then add them to navigation. Choose the privacy page in Settings → Privacy and the terms page in WooCommerce → Settings → Advanced. Configure your own country, currency, taxes, shipping, accounts and payment provider in WooCommerce. Test checkout and your payment provider; no gateway is configured by Avela."
 msgstr ""
 
-#: inc/welcome.php:204
+#: inc/welcome.php:205
 msgid "WooCommerce settings"
 msgstr ""
 
-#: inc/welcome.php:205
+#: inc/welcome.php:206
 msgid "Remove unedited sample products"
 msgstr ""
 
-#: inc/welcome.php:205
+#: inc/welcome.php:206
 msgid "Moves only unedited products created by this setup to Trash. Edited samples and all other products are preserved. Images, categories, pages and menus remain for safety; see the customer guide for manual cleanup."
 msgstr ""
 
-#: inc/welcome.php:205
+#: inc/welcome.php:206
 msgid "Move unedited sample products to Trash"
 msgstr ""
 
@@ -839,6 +1434,10 @@ msgstr ""
 msgid "Nothing found. Try another search."
 msgstr ""
 
+#. Template Name of the theme
+msgid "Avela Elementor Full Width"
+msgstr ""
+
 #: assets/blocks.js:6
 msgid "Avela product collection"
 msgstr ""
@@ -852,23 +1451,11 @@ msgid "Collection settings"
 msgstr ""
 
 #: assets/blocks.js:13
-msgid "Collection"
-msgstr ""
-
-#: assets/blocks.js:13
 msgid "Featured products"
 msgstr ""
 
 #: assets/blocks.js:13
-msgid "New arrivals"
-msgstr ""
-
-#: assets/blocks.js:13
 msgid "Sale products"
-msgstr ""
-
-#: assets/blocks.js:14
-msgid "Number of products"
 msgstr ""
 
 #: assets/blocks.js:19

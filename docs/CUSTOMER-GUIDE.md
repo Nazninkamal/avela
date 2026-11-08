@@ -1,41 +1,56 @@
-# Avela 1.1.0 — setup and editing
+# Avela 1.2.0 — ready-made Elementor shop
 
-## Install
-1. In WordPress, open Appearance → Themes → Add Theme → Upload Theme. Choose **avela-1.1.0.zip**, install, and activate.
-2. Open **Appearance → Avela setup**. Install and activate the free **WooCommerce** plugin through the provided WordPress link if needed. The theme never installs plugins silently.
-3. Review the existing-page list. Choose whether to add the optional sample content, then click **Set up my store**. Read its report.
+## Install or upgrade
+1. Upload **avela-1.2.0.zip** in WordPress → Appearance → Themes → Add Theme → Upload Theme. For an upgrade, choose to replace the existing Avela theme. Back up your site first.
+2. Install and activate **WooCommerce** and **Elementor Website Builder (Free)** through Plugins → Add New. Appearance → Avela setup includes links to the normal installation screens. Avela never installs or activates a plugin silently. Elementor Pro is **not required**.
+3. Open **Appearance → Avela setup**. Run **Set up my store** to prepare missing shop/support pages. Optional sample products and original local images can be selected here; use a staging site while sample products are published.
+4. In **Build the ready-made Elementor website**, select:
+   - Use Elementor Home as my homepage.
+   - Assign new menus linking to the Elementor pages.
+   - Use the editable Elementor header and footer.
+5. Click **Create my Elementor website**. Open any of the six **Edit with Elementor** links on the same screen.
 
-Use a staging site during setup. Demo products are real published WooCommerce products, clearly identified in setup, and can be purchased for testing. Remove or replace them before opening your shop.
+Your previous homepage, pages and menus are retained. Leave the switches off to create and preview the new pages before changing your live navigation. Repeating setup reuses the layouts and preserves every edit. Private or trashed layouts are reported rather than duplicated. Choosing the homepage/menu switches explicitly changes those assignments; no existing page content is overwritten.
 
-## What setup does
-Creates missing Home, Shop, Cart, Checkout, My Account, About, Contact, FAQ, Order Tracking, Shipping and Returns, Privacy Policy, and Terms and Conditions pages. Uses existing configured WooCommerce pages or matching page slugs without changing their content or status. Existing menus and static homepage assignments stay intact. Review any reused page to confirm its content provides the correct page function.
+## Edit in Elementor Free
 
-Legal starter pages are **draft checklists**, requiring your own reviewed wording. WordPress's existing Privacy Policy is reused if present. Nothing is automatically published over an existing page. Setup can be run again without adding duplicate pages, products or menu items. Trashed or edited sample products are not recreated. Errors and conflicts are reported; resolve them in Pages, Settings → Reading, or WooCommerce → Settings → Advanced.
+| What to change | Where |
+| --- | --- |
+| Hero title, descriptions and all marketing copy | Select the Heading or Text Editor widget. Type in the Content panel; use Style for colors and typography. |
+| Photographs | Select an Image widget → Choose Image/Replace. Select an existing Media image or upload your own; edit its alternative text in Media. |
+| Buttons | Select the Button widget. Change its label, destination and Style settings. |
+| Featured, new and sale products | Select **Avela Products**. Choose the collection, product count, responsive columns and image proportions. Style its product titles and buttons in the widget's Style tab. |
+| Categories | **Avela Categories** displays nonempty top-level WooCommerce categories. Change category names/images in Products → Categories. |
+| Optional sections | Open Elementor's **Structure/Navigator**. Sections have descriptive names. Move, duplicate or delete the entire section; the seasonal edit and editorial cards are optional. |
+| About, Contact and FAQ layouts | Use their Edit with Elementor links in Avela setup. The FAQ uses Elementor's editable Accordion widget. |
+| Header and footer | Use the dedicated Header/Footer edit links in **Avela setup**. These work with Elementor Free; do not use Pro-only Theme Builder. |
+| Site name and logo | Appearance → Customize → Site Identity. Avela Store Identity widgets use the shared identity automatically. |
+| Email, telephone, address and hours | Appearance → Customize → Avela store details & style. The Contact Details widget updates the Contact page and footer together. |
+| Navigation links | Appearance → Menus. The Elementor navigation widgets read the selected WordPress menu locations. |
 
-A fresh site gets Home assigned as its homepage. An established blog or static homepage is preserved; choose Home in **Settings → Reading** when you are ready. If a reused Home page already has content, setup preserves it. To start with the supplied homepage instead, use a fresh page/slug on a staging copy, or copy the sections you need from a fresh demo installation.
+Click **Publish/Update** in Elementor to save. Use the desktop/tablet/mobile toolbar to review each layout. You can add other Elementor Free widgets normally. Use the **Avela Shop** widget category for store functionality; Elementor's separate Pro WooCommerce widgets are not needed.
 
-## Edit your store
-- **Pages → Home → Edit:** all hero text, buttons, images, headings, and sections use the native WordPress block editor. Open **List View** to select, move or remove an entire section. Delete the seasonal group if you do not run sales. Select an Avela product collection and use its settings to choose featured, new or sale products and the number displayed. Update button destinations if you change your page URLs.
-- **Images:** select an Image block and use Replace. Demo images are bundled locally. Optional demo setup also imports them into Media. Add descriptive alternative text to your own meaningful images.
-- **Products:** change titles, descriptions, prices, categories, photos, gallery, stock, attributes and variations in normal WooCommerce screens. Mark products as featured using the star in Products. Product collections respect WooCommerce catalog visibility and stock visibility.
-- **Category cards:** edit Products → Categories. Set each category's image. The homepage displays up to four nonempty top-level categories, alphabetically, excluding Uncategorized. Category navigation is a normal menu and can contain more categories.
-- **Appearance → Customize → Site Identity:** change the logo and store name.
-- **Appearance → Customize → Avela store details & style:** change colors, heading style, the header announcement, footer introduction, contact details and social URLs. Contact details are shared with the Contact page. Blank announcement/social fields hide them. Use dark primary/secondary colors and a light background; check contrast after changes.
-- **Appearance → Menus:** edit Main, Category and Footer navigation. Add reviewed policy pages after publishing them.
-- **Pages:** edit the About, FAQ and other starter text. Cart, Checkout, My Account and Order Tracking use native WooCommerce functionality. Existing WooCommerce Cart and Checkout blocks are preserved. Avela's store-page block is a safe wrapper for the corresponding standard WooCommerce page, with no custom checkout or authentication logic.
-- **Blog:** create a Journal page, select it as the Posts page in Settings → Reading, and add posts normally. Blog archive, article, comments and 404 templates are included.
+The theme includes a locally bundled editorial font, **Avela Editorial** (DM Serif Display), selectable in Elementor's typography control. You can choose another font in Elementor. Review Elementor's own font/privacy settings if you enable externally hosted fonts.
 
-There is one editing location for each piece of content: page content in the editor; shared header, footer and site style in Customize; catalog in WooCommerce. No PHP, CSS, JSON or shortcode editing is required.
+## What remains in WooCommerce
 
-## Before accepting orders
-Replace all starter business text and sample products. Publish your reviewed policies, select your Privacy Policy in Settings → Privacy, and select Terms and Conditions in WooCommerce → Settings → Advanced. Draft policies are not linked in the footer. Configure countries, currency, tax, shipping zones, accounts and registration through WooCommerce. Configure your own payment provider and test it in its sandbox, then production as appropriate. Avela does not enable a payment gateway, force an address format or currency, or include the theme seller's payment links.
+Edit product titles, prices, photographs, variations, stock and descriptions in **Products**. The Shop archive, single-product template, cart, checkout, customer account, confirmation and tracking use native WooCommerce and the supplied Avela styling. The full WooCommerce single-product/archive/checkout templates are **not** Elementor Free Theme Builder templates. This preserves native payment, account and variation behavior.
 
-Test on your hosting with your plugins, currency, addresses, shipping and gateway. A successful offline order does not verify an external payment provider. Email delivery depends on the host/mail service. Contact links use the email/telephone you supply; there is no nonfunctional newsletter or contact form.
+The prepared Home, About, Contact and FAQ marketing pages and the global header/footer are editable in Elementor. Original block-editor pages remain editable in the WordPress editor. Use the editor belonging to each page; do not convert an Elementor page back to the block editor merely to change its text.
 
-## Remove sample content
-Appearance → Avela setup → Remove unedited sample products moves only unchanged setup-created products to Trash. Edited samples and unrelated products are preserved. You can restore products from Products → Trash.
+## Before launch
 
-Images, categories, menus and pages remain because your edited pages may use them. Sample images are labelled **Avela sample image** in Media. Replace all page/product/category uses, then remove unused sample images in Media. Delete unwanted sample categories through Products → Categories and edit navigation in Appearance → Menus. Trashed sample products prevent accidental re-import; permanently deleting a sample allows a later optional demo run to recreate it.
+Replace sample products and verify all starter copy. Samples are published and purchasable for staging tests; no reviews or sales figures are invented. Optional demo import never includes orders, customers, passwords, API keys or business settings.
 
-## Requirements
-WordPress 6.6+, PHP 8.0+, and a supported WooCommerce version for shopping. Current tested versions and remaining limitations are in TEST-REPORT.md. No parent theme, separate importer, paid builder, external font service or premium plugin license is required. Keep WordPress and WooCommerce current and back up before upgrades.
+Review and publish your **Shipping and Returns, Privacy Policy and Terms and Conditions** drafts. Select the privacy page in Settings → Privacy and terms in WooCommerce → Settings → Advanced. The Elementor copyright/policy widget links only published policies and keeps the year and store name current. Add other links through your footer menu.
+
+Configure your own country, currency, taxes, shipping, account preferences and payment provider in WooCommerce. Test your provider and transactional email on your hosting. Offline test orders do not verify an external gateway. No country, currency, external seller payment link or gateway is forced by the theme.
+
+## Restore or clean up
+
+- **Avela setup → Restore original theme header and footer** disables the Elementor regions while retaining their layouts and edits.
+- Choose your former homepage in **Settings → Reading** and old menus in Appearance → Menus to restore those assignments.
+- If Elementor is deactivated, the original header/footer return and imported pages display their initial block-content fallback. **The theme does not synchronize later Elementor edits into that fallback; its content is not guaranteed to match the latest design.** Reactivate Elementor to restore the edited designs.
+- Remove unedited samples through Avela setup. Edited samples are preserved. Images, categories and pages remain because they may be reused; replace their uses before removing them manually. Samples already in Trash are not reimported.
+
+Requirements: WordPress 6.6+ and PHP 8.0+ for the theme; installed plugin versions may require newer versions. See TEST-REPORT.md for the versions actually exercised and remaining limitations. No parent theme, paid builder or separate importer is required.

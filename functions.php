@@ -1,7 +1,7 @@
 <?php
 /** Avela storefront. Copyright 2026 Naznin Kamal. GPL-2.0-or-later. */
 if ( ! defined( 'ABSPATH' ) ) { exit; }
-define( 'AVELA_VERSION', '1.1.0' );
+define( 'AVELA_VERSION', '1.2.0' );
 function avela_setup() {
  load_theme_textdomain( 'avela', get_template_directory() . '/languages' );
  foreach ( array( 'title-tag', 'post-thumbnails', 'automatic-feed-links', 'responsive-embeds', 'align-wide', 'woocommerce', 'wc-product-gallery-zoom', 'wc-product-gallery-lightbox', 'wc-product-gallery-slider', 'editor-styles' ) as $support ) { add_theme_support( $support ); }
@@ -18,7 +18,7 @@ function avela_assets() {
  foreach ( array( 'accent' => '#23493d', 'paper' => '#faf8f3', 'highlight' => '#9b4b34' ) as $key => $default ) {
   $css .= '--avela-' . $key . ':' . ( sanitize_hex_color( get_theme_mod( 'avela_' . $key, $default ) ) ?: $default ) . ';';
  }
- $font = get_theme_mod( 'avela_typography', 'serif' ) === 'sans' ? 'Arial,Helvetica,sans-serif' : 'Georgia,"Times New Roman",serif';
+ $font = get_theme_mod( 'avela_typography', 'serif' ) === 'sans' ? 'Arial,Helvetica,sans-serif' : '"Avela Editorial",Georgia,"Times New Roman",serif';
  wp_add_inline_style( 'avela', $css . '--avela-heading-font:' . $font . ';}' );
  if ( class_exists( 'WooCommerce' ) ) { wp_enqueue_script( 'wc-cart-fragments' ); }
 }
@@ -37,10 +37,10 @@ function avela_primary_fallback() {
 }
 function avela_typography_sanitize( $value ) { return in_array( $value, array( 'serif', 'sans' ), true ) ? $value : 'serif'; }
 function avela_customizer( $manager ) {
- $manager->add_section( 'avela_store', array( 'title' => __( 'Avela store details & style', 'avela' ), 'description' => __( 'Edit homepage content in Pages → Home. Remove any optional section in List View. These settings control the shared header and footer.', 'avela' ), 'priority' => 30 ) );
+ $manager->add_section( 'avela_store', array( 'title' => __( 'Avela store details & style', 'avela' ), 'description' => __( 'Edit Elementor layouts through Appearance → Avela setup. Shared logo and contact data update the store widgets. Elementor widgets have their own Style controls; the settings here also provide original theme and store defaults.', 'avela' ), 'priority' => 30 ) );
  $fields = array(
-  'announcement' => array( __( 'Announcement (blank hides it)', 'avela' ), __( 'Thoughtfully chosen. Made for the everyday.', 'avela' ), 'sanitize_text_field', 'text' ),
-  'footer_text' => array( __( 'Footer introduction', 'avela' ), __( 'A considered collection for your everyday rituals.', 'avela' ), 'sanitize_textarea_field', 'textarea' ),
+  'announcement' => array( __( 'Original header announcement (Elementor header text is edited in Elementor)', 'avela' ), __( 'Thoughtfully chosen. Made for the everyday.', 'avela' ), 'sanitize_text_field', 'text' ),
+  'footer_text' => array( __( 'Original footer introduction (Elementor footer text is edited in Elementor)', 'avela' ), __( 'A considered collection for your everyday rituals.', 'avela' ), 'sanitize_textarea_field', 'textarea' ),
   'contact_email' => array( __( 'Contact email', 'avela' ), '', 'sanitize_email', 'email' ),
   'contact_phone' => array( __( 'Contact telephone', 'avela' ), '', 'sanitize_text_field', 'text' ),
   'contact_address' => array( __( 'Business address / opening hours', 'avela' ), '', 'sanitize_textarea_field', 'textarea' ),
@@ -88,3 +88,5 @@ function avela_missing_woocommerce_shortcodes() {
 add_action( 'init', 'avela_missing_woocommerce_shortcodes', 20 );
 // Keep a single search match on the results page so shoppers can refine their query.
 add_filter( 'woocommerce_redirect_single_search_result', '__return_false' );
+
+require get_theme_file_path( 'inc/elementor.php' );

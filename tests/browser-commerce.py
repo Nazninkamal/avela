@@ -55,7 +55,7 @@ with sync_playwright() as p:
    if name in ['home','shop','product','account']:
     pg.screenshot(path=str(artifacts/f'{name}-{width}.png'),full_page=True)
   passed(f'Responsive layouts without horizontal overflow at {width}px')
- pg.goto(base+'/',wait_until='networkidle');pg.get_by_role('button',name='Menu',exact=False).click();assert pg.locator('#avela-navigation').is_visible();pg.keyboard.press('Escape');assert pg.locator('.avela-menu-toggle').get_attribute('aria-expanded')=='false';passed('Mobile menu, Escape key and focus return')
+ pg.goto(base+'/',wait_until='networkidle');pg.locator('.avela-menu-toggle').first.click();assert pg.locator('.avela-navigation').first.is_visible();pg.keyboard.press('Escape');assert pg.locator('.avela-menu-toggle').get_attribute('aria-expanded')=='false';passed('Mobile menu, Escape key and focus return')
  pg.reload(wait_until='networkidle');pg.keyboard.press('Tab');focused=pg.locator(':focus');assert 'Skip to content' in focused.inner_text();assert focused.evaluate("e=>getComputedStyle(e).outlineStyle")!='none';passed('Keyboard skip link and visible focus')
  pg.goto(base+'/about/',wait_until='networkidle');assert 'Useful things.' in pg.inner_text('#content')
  pg.goto(base+'/contact/',wait_until='networkidle');assert pg.locator('#content a[href="mailto:hello@example.test"]').count()

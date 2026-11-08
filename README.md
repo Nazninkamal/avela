@@ -1,33 +1,39 @@
-# Avela 1.1.0
+# Avela 1.2.0 — Elementor-ready boutique storefront
 
-A standalone WordPress retail theme with an editable block homepage, guided setup, optional original demo imagery and native WooCommerce shopping.
+A ready-made WordPress/WooCommerce website with **Elementor Free** editing for Home, About, Contact, FAQ, header and footer. Includes editorial promotion cards, live product collections, local imagery and an openly licensed local display font.
 
-- [Download the installable theme ZIP](dist/avela-1.1.0.zip)
-- [Customer setup and editing guide](docs/CUSTOMER-GUIDE.md)
+- [Download Avela 1.2.0 — installable theme ZIP](dist/avela-1.2.0.zip)
+- [Setup and editing guide](docs/CUSTOMER-GUIDE.md)
 - [Dependencies and licensing](docs/LICENSING.md)
-- [Factual verification report](docs/TEST-REPORT.md)
-- [Desktop preview](previews/desktop.jpg) · [Mobile preview](previews/mobile.jpg)
+- [Verification report](docs/TEST-REPORT.md)
+- [Current desktop preview](previews/desktop.jpg)
 
-Upload **dist/avela-1.1.0.zip** through WordPress → Appearance → Themes → Add Theme → Upload Theme. Activate, install WooCommerce through the standard WordPress plugin flow, then open Appearance → Avela setup. Use the block editor for homepage/page content, Customize for shared store details and style, and WooCommerce for the catalog.
+## Start editing
 
-The optional sample products are published for staging tests. Review the draft policies, remove or replace samples, configure your own payments/shipping/taxes, and test your store before launch. External gateways are not configured or verified by this theme.
+Install the theme, WooCommerce and Elementor Free. Open **Appearance → Avela setup**, prepare the store pages, then click **Create my Elementor website**. Select the homepage, menu and header/footer switches to use the complete Elementor design. The setup screen provides direct Edit with Elementor links to all six layouts.
+
+Existing pages and menus are retained. Repeating setup preserves edits and avoids duplicates. Use Avela Products in Elementor to change merchandising without Pro; manage product information and shopping behavior in WooCommerce.
+
+**Scope:** marketing pages and header/footer are Elementor-editable. Shop, product, cart, checkout, accounts and tracking retain native WooCommerce templates and functionality. Elementor Pro Theme Builder is not required or bundled. Configure your own gateways and reviewed policies before launch.
 
 ## Development
 
-The repository root is the theme source. Build the customer ZIP with:
+The repository root is theme source. No frontend build step is required:
 
 ```sh
-python3 tools/package.py /path/to/avela-1.1.0.zip
+python3 tools/package.py /path/to/avela-1.2.0.zip
 ```
 
-This excludes tests, tools, previews, release artifacts and repository files from the customer package. No frontend build step or dependency installation is needed.
-
-On a disposable WordPress site with this theme active, WooCommerce active and the optional demo already imported:
+Tests, tools, previews, release artifacts and repository files are excluded from the customer ZIP. On a disposable WordPress installation with Elementor Free, WooCommerce and the six layouts already prepared:
 
 ```sh
-wp eval-file tests/setup-integration.php
+wp eval-file tests/elementor-integration.php
 ```
 
-The integration test edits and restores local test content, tests sample cleanup, and must not be run against production. See [tests/README.md](tests/README.md) for the browser suite.
+See tests/README.md and the verification report. Do not run integration fixtures against production.
 
-GPL-2.0-or-later. Copyright 2026 Naznin Kamal. Based on the supplied Avela 1.0.1 theme. Original AI-generated demo images are bundled locally; see licensing information.
+## Publication note
+
+The test workspace disconnected after package validation. The runtime source and current desktop viewport were recovered from the same published ZIP and verified against the recorded file hashes. Full new mobile/editor screenshots were captured during testing but their upload was interrupted. Other existing preview files belong to the earlier 1.1.0 release.
+
+GPL-2.0-or-later theme code. Copyright 2026 Naznin Kamal. DM Serif Display is separately licensed under SIL OFL 1.1; its license is bundled. Original generated demo images are bundled locally.

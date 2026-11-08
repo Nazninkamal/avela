@@ -3,7 +3,7 @@
 from pathlib import Path
 import sys,zipfile
 root=Path(__file__).resolve().parents[1]
-destination=Path(sys.argv[1]) if len(sys.argv)>1 else root.parent/'avela-1.1.0.zip'
+destination=Path(sys.argv[1]) if len(sys.argv)>1 else root.parent/'avela-1.2.0.zip'
 excluded={'tests','tools','.git','.github','dist','previews','node_modules','__pycache__'}
 with zipfile.ZipFile(destination,'w',zipfile.ZIP_DEFLATED,compresslevel=9) as archive:
  for path in sorted(root.rglob('*')):
